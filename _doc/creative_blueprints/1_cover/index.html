@@ -1,0 +1,35 @@
+<style>
+  .sl-layout { display: flex; height: 100%; }
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 52%; }
+  .mode-landscape .sl-visual { width: 48%; }
+  .mode-portrait .sl-content { width: 100%; flex: 1; }
+  .mode-portrait .sl-visual { width: 100%; flex: 1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout w-full h-full">
+    <div class="sl-content flex flex-col justify-between p-12" style="background: #1B2B4B;">
+      <div>
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-7 h-7 rounded-md flex items-center justify-center" style="background: #F59E0B;">
+            <svg width="14" height="14" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </div>
+          <span class="text-white font-bold text-base tracking-wide">PrintDesk</span>
+        </div>
+        <span class="text-amber-400 text-xs font-semibold tracking-widest uppercase">Print Shop Operations</span>
+        <h1 class="text-white font-black leading-none mt-4" style="font-size: 3.2rem;">Every Job.<br/>On Time.<br/>On Budget.</h1>
+        <p class="text-slate-300 text-base mt-6 leading-relaxed" style="max-width: 22rem;">PrintDesk gives print shop owners a single dashboard to manage jobs, track material costs, and never miss a delivery deadline.</p>
+      </div>
+      <data-attribution />
+    </div>
+    <div class="sl-visual relative overflow-hidden">
+      <img
+        src="http://localhost:8001/common/image-generation?prompt=modern+professional+print+shop+large+format+printer+warm+overhead+lighting+clean+organized+workspace+rolls+of+paper+high+quality+photography"
+        class="w-full h-full object-cover"
+        alt="Professional print shop"
+      />
+      <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(27,43,75,0.15), transparent);"></div>
+    </div>
+  </div>
+</section>
