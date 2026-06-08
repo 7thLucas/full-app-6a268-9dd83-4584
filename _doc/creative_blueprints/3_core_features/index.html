@@ -1,0 +1,61 @@
+<style>
+  .chip-active { background: #1B2B4B; color: #ffffff; }
+  .chip-inactive { background: #EEF0F5; color: #4B5563; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-5">
+      <span class="text-amber-500 text-xs font-bold tracking-widest uppercase">Core Features</span>
+      <h2 class="text-slate-900 font-bold mt-1" style="font-size: 1.9rem;">Built for how print shops actually work</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex gap-3 mb-7">
+      <span class="chip-active text-xs font-semibold px-4 py-2 rounded-full">Print Shop Owner</span>
+      <span class="chip-inactive text-xs font-medium px-4 py-2 rounded-full">Shop Manager / Operator</span>
+    </div>
+
+    <!-- Feature cards grid -->
+    <div class="grid grid-cols-2 gap-4 flex-1">
+
+      <!-- Job Management -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background: #F5F6F8; border: 1px solid #E5E7EB;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" style="background: #1B2B4B;">
+          <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+        </div>
+        <h3 class="text-slate-900 font-semibold text-sm mb-1">Job Management</h3>
+        <p class="text-slate-600 text-xs leading-relaxed">Create and track print jobs end-to-end. Status, client, specs, quantity, and due date on one card — from Queued to Delivered.</p>
+      </div>
+
+      <!-- Material Cost Tracking -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background: #F5F6F8; border: 1px solid #E5E7EB;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" style="background: #F59E0B;">
+          <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="text-slate-900 font-semibold text-sm mb-1">Material Cost Tracking</h3>
+        <p class="text-slate-600 text-xs leading-relaxed">Log paper, ink, substrate, and finishing per job. See real cost per print run and cumulative spend — know your margin before invoicing.</p>
+      </div>
+
+      <!-- Deadline Tracking -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background: #F5F6F8; border: 1px solid #E5E7EB;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" style="background: #EF4444;">
+          <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="text-slate-900 font-semibold text-sm mb-1">Delivery Deadline Tracking</h3>
+        <p class="text-slate-600 text-xs leading-relaxed">Assign due dates; overdue and at-risk jobs are flagged automatically. No deadline passes unnoticed, no client promise broken.</p>
+      </div>
+
+      <!-- Operations Dashboard -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background: #1B2B4B;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" style="background: rgba(245,158,11,0.18);">
+          <svg width="18" height="18" fill="none" stroke="#F59E0B" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h3 class="text-white font-semibold text-sm mb-1">Operations Dashboard</h3>
+        <p class="text-slate-300 text-xs leading-relaxed">Single-screen view of active jobs, overdue items, material spend, and on-time delivery rate. Replaces whiteboards and spreadsheets entirely.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
