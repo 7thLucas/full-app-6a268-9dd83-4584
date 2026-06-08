@@ -1,0 +1,1 @@
+Build me an app for printing shop owners to help them manage print jobs, material costs, and delivery deadlines with the goal to deliver quality prints on time and control material costs
